@@ -39,13 +39,6 @@ nav a:hover{
     
 }
 
-nav #agentes{
-display: inline;
-
-}
-
-
-
 body{
     background-color: var(--cor4);
 
