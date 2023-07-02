@@ -1,12 +1,75 @@
-
-div{
-    display: inline;
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
 }
 
-div:hover > p{
-   display: block;
+
+:root{
+   --cor1:#1F1709;
+   --cor2:#ECECE8;
+   --cor3:#ff270f54;
+   --cor4:#7E8682;
+   --cor5:#2c34d186;
+
 }
 
-div p{
-    display: none;
+header{
+text-align: center;
+background-image: linear-gradient(var(--cor1), var(--cor3));
+}
+
+header >h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+
+nav a{
+    margin-left: 10px;
+    text-decoration:none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+nav a:hover{
+    background-color: var(--cor2);
+    padding-left:5px ;
+    padding-right:5px ;
+    
+}
+
+nav #agentes{
+display: inline;
+
+}
+
+
+
+body{
+    background-color: var(--cor4);
+
+}
+
+main{
+    border-radius: 5px;
+    margin: auto;
+    padding: 15px;
+    min-width: 300px;
+    max-width: 800px;
+    box-sizing: solid ;
+    background-image:linear-gradient(to right, var(--cor5), var(--cor3));
+}
+
+article{
+    margin: 10px;
+}
+
+ul{
+    list-style-type: '✅';
+    list-style-position: inside;
+    border-radius: 5px;
+    padding-left: 20px;
+    background-color: var(--cor3);
+    columns: 2;
 }
