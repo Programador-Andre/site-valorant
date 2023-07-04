@@ -53,7 +53,14 @@ main{
     box-sizing: solid ;
     background-image:linear-gradient(to right, var(--cor5), var(--cor3));
 }
+#menu{
+    font-size: 25px;
 
+}
+
+#menu:hover{
+
+}
 article{
     margin: 10px;
 }
