@@ -1,3 +1,3 @@
 # site-valorant
- meu site
- <a href="https://programador-andre.github.io/site-valorant/guia-valorant.html">site atualizad</a>
+ 05/07
+ <a href="https://programador-andre.github.io/site-valorant/guia-valorant.html">site atualizadO</a>
